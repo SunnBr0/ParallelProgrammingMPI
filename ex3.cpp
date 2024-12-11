@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <mpi.h>
 #include <vector>
@@ -115,7 +113,7 @@ void min_fibonacci_opFunc(int* in, int* inout, int* len, MPI_Datatype* dtype) {
 
 // Функция для нахождения минимального числа Фибоначчи, превосходящего заданное значение
 int find_min_fibonacci_greater_than(int num) {
-    if (num <= 0) return 1;
+    if (num <= 0) return 0;
 
     int a = 1, b = 1;
     while (b <= num) {
