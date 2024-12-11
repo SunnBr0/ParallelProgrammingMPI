@@ -141,3 +141,4 @@ void initialize_matrix_B(vector<vector<int>>& matrix, int n) {
         }
     }
 }
+ 
